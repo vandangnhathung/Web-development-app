@@ -1,0 +1,13 @@
+.info_cv {
+  display: flex;
+  gap: 0 10px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+.other {
+  margin-left: 160px;
+}
