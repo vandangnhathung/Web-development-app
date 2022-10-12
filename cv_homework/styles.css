@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+:root {
+  --main-color: #20928f;
+}
+
+h2 {
+  margin: 0;
+}
+span {
+  margin: 0;
+}
+hr {
+  margin-bottom: 25px;
+}
+
+body {
+  background-color: #f3efe0;
+}
+
+.header {
+  color: #20928f;
+  text-align: center;
+  font-size: 40px;
+}
+.title2 {
+  color: rgb(90, 88, 88);
+  text-align: center;
+  font-size: 30px;
+}
+.content-header {
+  color: #20928f;
+  font-size: 40px;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+#experiences-wrap {
+  padding: 10px;
+  margin: 40px;
+}
+.header {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.content-header {
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+.content-wrap {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-text {
+  width: 30%;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+.content-about {
+  width: 100%;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: #20928f;
+  margin-bottom: 40px;
+}
+
+.content__title {
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.skill__title {
+  font-size: 30px;
+  color: #20928f;
+  text-align: left;
+}
+
+.skill__group {
+  flex: 1;
+}
+
+.skill__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill__level {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.skill__wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.skill__level-box {
+  padding: 2px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.active {
+  border: 1px solid #20928f;
+}
+
+.text {
+  font-size: 20px;
+  color: rgb(201, 197, 197);
+  font-style: italic;
+}
+
+.button__text {
+  padding: 5px;
+  background-color: #20928f;
+  max-width: 200px;
+  width: 100%;
+  margin: 10px auto;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}

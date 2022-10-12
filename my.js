@@ -14,3 +14,7 @@ app.get("/trang-chu/thong-tin-ca-nhan", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
+
+app.post("/trang-chu/bai-viet", (req, res) => {
+  res.send("This is a testing post");
+});
