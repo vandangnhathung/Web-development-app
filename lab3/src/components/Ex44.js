@@ -1,5 +1,5 @@
 import { logDOM } from "@testing-library/react";
-import { Card } from "antd";
+import { Avatar, Card } from "antd";
 import React from "react";
 
 const { Meta } = Card;
@@ -16,7 +16,7 @@ const Ex44 = () => {
   return (
     <Card style={{ width: 300, marginTop: 16 }}>
       <Meta
-        avatar={card.avatar}
+         avatar={<Avatar src={card.avatar}/>}
         title={card.title}
         description={card.description}
         cover={<img alt="example" src={card.cover} />}

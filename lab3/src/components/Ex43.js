@@ -12,7 +12,8 @@ const Ex43 = () => {
   return (
     <ul>
       {smartPeople.map((item, index) => (
-        <li key={index}>{item}</li>
+        <li key={index}>{item.name}</li>
+        <li key={index}>{item.age}</li>
       ))}
     </ul>
   );
